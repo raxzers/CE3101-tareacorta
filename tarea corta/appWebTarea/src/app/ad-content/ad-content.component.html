@@ -1,0 +1,107 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/adcontent#">REst tec</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <div (click)="toggleMenu()">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/adcontent#">menu</a>
+        </li></div>
+        <div (click)="toggleTop10()">
+        <li class="nav-item">
+          <a class="nav-link" href="/adcontent#">modificar</a>
+        </li></div>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/adcontent#">Top 10</a>
+        </li>
+        <div (click)="toggleCrearP()"><li><a class="nav-link" href="/adcontent#">NO se</a></li></div>
+        <li><a class="nav-link" href="/adcontent#">SI falta</a></li>
+        <li><a class="nav-link" href="/adcontent#">Algo mas</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<ng-container *ngIf="showMenu">
+<div class="container">
+  <table class="table table-bordered">
+    <thead><tr>
+        <th>ID</th>        <th>Name</th>        <th>Email</th>        <th>Gender</th>     <th>si o no</th>
+      </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let Test of t2"> 
+     <td>{{ Test.id }}</td>
+      <td>{{ Test.body }}</td>
+      <td>{{ Test.title }}</td>
+      <td>{{ Test.userId }}</td>
+      <td><input type="checkbox"></td>
+    </tr>
+  </tbody> 
+  </table>
+</div>
+</ng-container>
+
+<ng-container *ngIf="showtop10">
+  <div class="container">
+    <table class="table table-bordered">
+      <thead><tr>
+          <th>ID</th>        <th>Name</th>        <th>Email</th>        <th>Gender</th>     <th>si o no</th>
+        </tr>
+    </thead>
+  
+    <tbody>
+      <tr > 
+       <td>{{ t3.id }}</td>
+        <td>{{ t3.title }}</td>
+        <td>{{ t3.title }}</td>
+        <td>{{ t3.userId }}</td>
+        <td><input type="checkbox"></td>
+      </tr>
+    </tbody> 
+    </table>
+  </div>
+  </ng-container>
+
+  <ng-container *ngIf="crearPlatillos">
+    <div class="container">
+      <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Plato</span>
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+  
+
+  
+    <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Precio</span>
+    <span class="input-group-text" id="basic-addon1">₡</span>
+    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+
+
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">calorias</span>
+  <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+  <span class="input-group-text" id="basic-addon1">kcal</span>
+</div>
+
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Descripcion</span>
+  <textarea class="form-control" placeholder="Agregar descripcion" id="floatingTextarea2" style="height: 100px"></textarea>
+  
+</div>
+<button type="button" class="btn btn-info btn-lg">Crear platillo</button>
+</div>
+
+  </ng-container>
