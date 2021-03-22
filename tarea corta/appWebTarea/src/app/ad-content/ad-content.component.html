@@ -77,7 +77,7 @@
     <div class="container">
       <div class="input-group mb-3">
       <span class="input-group-text" id="basic-addon1">Plato</span>
-      <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1"  [(ngModel)]="patillo.Name">
     </div>
   
 
@@ -85,23 +85,23 @@
     <div class="input-group mb-3">
     <span class="input-group-text" id="basic-addon1">Precio</span>
     <span class="input-group-text" id="basic-addon1">₡</span>
-    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" [(ngModel)]="patillo.price">
   </div>
 
 
   <div class="input-group mb-3">
   <span class="input-group-text" id="basic-addon1">calorias</span>
-  <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+  <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" [(ngModel)]="patillo.calorie">
   <span class="input-group-text" id="basic-addon1">kcal</span>
 </div>
 
 
   <div class="input-group mb-3">
     <span class="input-group-text" id="basic-addon1">Descripcion</span>
-  <textarea class="form-control" placeholder="Agregar descripcion" id="floatingTextarea2" style="height: 100px"></textarea>
+  <textarea class="form-control" placeholder="Agregar descripcion" id="floatingTextarea2" style="height: 100px" [(ngModel)]="patillo.description"></textarea>
   
 </div>
-<button type="button" class="btn btn-info btn-lg">Crear platillo</button>
+<button type="button" class="btn btn-info btn-lg" (click)="postPlatillo()">Crear platillo</button>
 </div>
 
   </ng-container>

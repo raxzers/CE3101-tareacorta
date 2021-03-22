@@ -3,23 +3,19 @@ import { from } from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import { pipe } from 'rxjs';
 import { map } from 'rxjs/operators';
-interface Student {
 
-  id: Number;
 
-  name: String;
-
-  email: String;
-
-  gender: String;
-  test:String;
-
-}
 interface Test{
   userId: Number;
   id: Number;
   title: String;
   body:String;
+}
+interface plato{
+  Name: string;
+  price: Number;
+  calorie: Number;
+  description:String;
 }
 @Component({
   selector: 'app-ad-content',
@@ -31,7 +27,16 @@ export class AdContentComponent implements OnInit {
   public showMenu:boolean = false;
   public showtop10:boolean = false;
   public crearPlatillos:boolean = false;
- 
+  public patillo:plato =
+
+    {
+      Name:"",
+      price: null,
+      calorie: null,
+      description:""
+     
+
+    };
     t2=null;t3=null;
   constructor(private http:HttpClient ) {}
 
@@ -71,5 +76,13 @@ export class AdContentComponent implements OnInit {
     this.crearPlatillos = !this.crearPlatillos;
     this.showtop10 = false;
   this.showMenu=false;}
+
+  postPlatillo():void{
+    console.log(this.patillo);
+    console.log("{Name:"+this.patillo.Name+" price:"+ this.patillo.price+ "}") ;
+    //this.http.post('http://ptsv2.com/t/de1nj-1616448969', { title: 'Angular POST Request Example' }).subscribe(data => {
+     // console.log(data) ;
+       // })
+  }
   
 }
