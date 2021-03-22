@@ -40,6 +40,7 @@ export class AdContentComponent implements OnInit {
  
 
   get( url: string){
+    this.t2=null;
     this.http.get(url).subscribe((data)=>{
       
     
@@ -49,39 +50,18 @@ export class AdContentComponent implements OnInit {
   })
       
   }
-  getplatillos( http:HttpClient )
-  {
-    this.http.get('https://jsonplaceholder.typicode.com/posts').subscribe((data)=>{
-      
-    
-    console.log(data);
-     
-    this.t2= data;
-  })
-  
-  }
 
-  gettop10(  )
-  {
-    this.http.get('https://jsonplaceholder.typicode.com/todos/1').subscribe((data)=>{
-      
-    
-    console.log(data);
-     
-    this.t3= data;
-  })
-  
-  }
+
 
   toggleMenu() {
-    this.get();
+    this.get("https://jsonplaceholder.typicode.com/posts");
     this.showMenu = !this.showMenu;
     this.showtop10 = false;
     this.crearPlatillos=false;
   }
 
   toggleTop10() {
-    this.gettop10("https://jsonplaceholder.typicode.com/posts");
+    this.get('https://jsonplaceholder.typicode.com/todos/1');
     this.showtop10 = !this.showtop10;
   this.showMenu=false;
   this.crearPlatillos=false;}
