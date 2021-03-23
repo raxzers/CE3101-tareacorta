@@ -40,8 +40,7 @@ export class AdContentComponent implements OnInit {
     t2=null;t3=null;
   constructor(private http:HttpClient ) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {  }
  
 
   get( url: string){
@@ -78,8 +77,8 @@ export class AdContentComponent implements OnInit {
   this.showMenu=false;}
 
   postPlatillo():void{
-    console.log(this.patillo);
-    console.log("{Name:"+this.patillo.Name+" price:"+ this.patillo.price+ "}") ;
+
+    console.log("{Name:"+this.patillo.Name+",price:"+ this.patillo.price+ ",Calorie:"+this.patillo.calorie+",description:"+this.patillo.description+ "}") ;
     //this.http.post('http://ptsv2.com/t/de1nj-1616448969', { title: 'Angular POST Request Example' }).subscribe(data => {
      // console.log(data) ;
        // })
