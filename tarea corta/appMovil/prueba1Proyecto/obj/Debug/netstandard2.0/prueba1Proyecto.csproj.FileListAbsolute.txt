@@ -1,0 +1,16 @@
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\bin\Debug\netstandard2.0\prueba1Proyecto.deps.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\bin\Debug\netstandard2.0\prueba1Proyecto.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\bin\Debug\netstandard2.0\ref\prueba1Proyecto.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\bin\Debug\netstandard2.0\prueba1Proyecto.pdb
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.csprojAssemblyReference.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.AssemblyInfoInputs.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.AssemblyInfo.cs
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\ref\prueba1Proyecto.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\prueba1Proyecto.pdb
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+C:\Users\jrodr\Desktop\TEC\Bases\proyectos\prueba1Proyecto\prueba1Proyecto\obj\Debug\netstandard2.0\Views\LoginRegister.xaml.g.cs

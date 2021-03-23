@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba1Proyecto.Views.Register">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid Margin="20,0,20,0" VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout Grid.Row="0">
+                        <Entry Placeholder="Número de cédula" FontSize="16" x:Name="EntryUserNumber"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1">
+                        <Entry Placeholder="Nombre" IsPassword="True" FontSize="16" x:Name="EntryUserName"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2">
+                        <Entry Placeholder="Apellidos" FontSize="16" x:Name="EntryUserLastName"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="3">
+                        <Entry Placeholder="Provincia" FontSize="16" x:Name="EntryUserAdress1"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4">
+                        <Entry Placeholder="Cantón" FontSize="16" x:Name="EntryUserAdress2"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="5">
+                        <Entry Placeholder="Distrito" FontSize="16" x:Name="EntryUserAdress3"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="6">
+                        <Entry Placeholder="Fecha de nacimiento" FontSize="16" x:Name="EntryUserDate"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="7">
+                        <Entry Placeholder="Teléfono" FontSize="16" x:Name="EntryUserPhone"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="8">
+                        <Entry Placeholder="Correo electrónico" FontSize="16" x:Name="EntryUserMail"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="9">
+                        <Entry Placeholder="Contraseña" FontSize="16" x:Name="EntryUserPassword"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="10">
+                        <Button Text="Registrar" HorizontalOptions="CenterAndExpand" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
