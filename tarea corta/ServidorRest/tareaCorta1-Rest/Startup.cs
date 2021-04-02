@@ -14,6 +14,7 @@ namespace tareaCorta1_Rest
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,7 +25,22 @@ namespace tareaCorta1_Rest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:4200",
+                                                          "")
+                                        .AllowAnyHeader()
+                                                  .AllowAnyMethod();
+                                  });
+            });
+
+            // services.AddResponseCaching();
+           
             services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +54,7 @@ namespace tareaCorta1_Rest
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

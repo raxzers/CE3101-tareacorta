@@ -50,15 +50,15 @@ export class AdContentComponent implements OnInit {
     
     console.log(data);
      
-    this.t2= data;
+    //this.t2= data;
   })
       
   }
 
-
-
+//https://jsonplaceholder.typicode.com/posts
+//
   toggleMenu() {
-    this.get("https://jsonplaceholder.typicode.com/posts");
+    this.get("http://localhost:5000/api/clientes");
     this.showMenu = !this.showMenu;
     this.showtop10 = false;
     this.crearPlatillos=false;
