@@ -9,12 +9,16 @@ import { LadminComponent } from './ladmin/ladmin.component';
 import { MainComponent } from './main/main.component';
 import { AdContentComponent } from './ad-content/ad-content.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
+import { LchefComponent } from './lchef/lchef.component';
+import { ChContentComponent } from './ch-content/ch-content.component';
 @NgModule({
   declarations: [
     AppComponent,
     LadminComponent,
     MainComponent,
-    AdContentComponent
+    AdContentComponent,
+    LchefComponent,
+    ChContentComponent
   ],
   imports: [
     BrowserModule,
