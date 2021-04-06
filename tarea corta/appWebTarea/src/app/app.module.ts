@@ -11,6 +11,7 @@ import { AdContentComponent } from './ad-content/ad-content.component';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
 import { LchefComponent } from './lchef/lchef.component';
 import { ChContentComponent } from './ch-content/ch-content.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { ChContentComponent } from './ch-content/ch-content.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent]

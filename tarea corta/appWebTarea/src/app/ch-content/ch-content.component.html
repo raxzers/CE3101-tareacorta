@@ -9,18 +9,55 @@
     
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <div (click)="1"><li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/chcontent#">Menu</a>
+        <div (click)="togglePedidos()"><li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/chcontent#">Pedidos</a>
         </li></div>
-        <div (click)="1"><li class="nav-item">
-          <a class="nav-link" href="/chcontent#">top 10</a>
+        <div (click)="toggleMisPedidos()"><li class="nav-item">
+          <a class="nav-link" href="/chcontent#">Mis Pedidos</a>
         </li></div>
-        <div (click)="1"><li><a class="nav-link" href="/chcontent#">Crear</a></li></div>
-        <li class="nav-item"><a class="nav-link" href="/chcontent#">modificar</a></li>
         
-        <li><a class="nav-link" href="/chcontent#">SI falta</a></li>
-        <li><a class="nav-link" href="/chcontent#">Algo mas</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+
+<ng-container *ngIf="showPedidos">
+  <div class="container">
+    <table class="table table-bordered">
+      <thead><tr>
+          <th>ID</th>        <th>Name</th>        <th>Email</th>        <th>Gender</th>     
+        </tr>
+    </thead>
+  
+    <tbody>
+      <tr *ngFor="let Test of t2"> 
+       <td>{{ Test.id }}</td>
+        <td>{{ Test.body }}</td>
+        <td>{{ Test.title }}</td>
+        <td>{{ Test.userId }}</td>
+      </tr>
+    </tbody> 
+    </table>
+  </div>
+  </ng-container>
+
+  <ng-container *ngIf="showMisPedidos">
+    <div class="container">
+      <table class="table table-bordered">
+        <thead><tr>
+            <th>ID</th>        <th>pedidos</th>        <th>Email</th>        <th>Gender</th>     
+          </tr>
+      </thead>
+    
+      <tbody>
+        <tr *ngFor="let Test of t2"> 
+         <td>{{ Test.id }}</td>
+          <td>{{ Test.body }}</td>
+          <td>{{ Test.title }}</td>
+          <td>{{ Test.userId }}</td>
+        </tr>
+      </tbody> 
+      </table>
+    </div>
+    </ng-container>
