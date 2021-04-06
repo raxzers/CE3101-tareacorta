@@ -17,7 +17,7 @@
                         <Entry Placeholder="Número de cédula" FontSize="16" x:Name="EntryUserNumber"/>
                     </StackLayout>
                     <StackLayout Grid.Row="1">
-                        <Entry Placeholder="Nombre" IsPassword="True" FontSize="16" x:Name="EntryUserName"/>
+                        <Entry Placeholder="Nombre"  FontSize="16" x:Name="EntryUserName"/>
                     </StackLayout>
                     <StackLayout Grid.Row="2">
                         <Entry Placeholder="Apellidos" FontSize="16" x:Name="EntryUserLastName"/>
@@ -41,10 +41,10 @@
                         <Entry Placeholder="Correo electrónico" FontSize="16" x:Name="EntryUserMail"/>
                     </StackLayout>
                     <StackLayout Grid.Row="9">
-                        <Entry Placeholder="Contraseña" FontSize="16" x:Name="EntryUserPassword"/>
+                        <Entry Placeholder="Contraseña" IsPassword="True" FontSize="16" x:Name="EntryUserPassword"/>
                     </StackLayout>
                     <StackLayout Grid.Row="10">
-                        <Button Text="Registrar" HorizontalOptions="CenterAndExpand" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"/>
+                        <Button Text="Registrar" HorizontalOptions="CenterAndExpand" TextColor="White" BackgroundColor="Blue" Clicked="ButtonAgregar"/>
                     </StackLayout>
                 </Grid>
             </StackLayout>

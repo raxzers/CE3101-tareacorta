@@ -18,3 +18,23 @@ C:\Users\Extremetech\source\repos\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tarea
 C:\Users\Extremetech\source\repos\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.dll
 C:\Users\Extremetech\source\repos\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.pdb
 C:\Users\Extremetech\source\repos\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.genruntimeconfig.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.exe
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.deps.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.runtimeconfig.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.runtimeconfig.dev.json
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\bin\Debug\netcoreapp3.1\tareaCorta1-Rest.pdb
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.csprojAssemblyReference.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.AssemblyInfoInputs.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.AssemblyInfo.cs
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.csproj.CoreCompileInputs.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\staticwebassets\tareaCorta1-Rest.StaticWebAssets.Manifest.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\staticwebassets\tareaCorta1-Rest.StaticWebAssets.xml
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\scopedcss\bundle\tareaCorta1-Rest.styles.css
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.RazorTargetAssemblyInfo.cache
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.dll
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.pdb
+C:\Users\jrodr\Desktop\TEC\Bases\proyecto1\CE3101-tareacorta\tarea corta\ServidorRest\tareaCorta1-Rest\obj\Debug\netcoreapp3.1\tareaCorta1-Rest.genruntimeconfig.cache

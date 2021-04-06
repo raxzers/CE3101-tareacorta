@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Extremetech\\.nuget\\packages\\": {},
+    "C:\\Users\\jrodr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Extremetech\\source\\repos\\tareaCorta1-Rest\\tareaCorta1-Rest.csproj",
+      "projectUniqueName": "C:\\Users\\jrodr\\Desktop\\TEC\\Bases\\proyecto1\\CE3101-tareacorta\\tarea corta\\ServidorRest\\tareaCorta1-Rest\\tareaCorta1-Rest.csproj",
       "projectName": "tareaCorta1-Rest",
-      "projectPath": "C:\\Users\\Extremetech\\source\\repos\\tareaCorta1-Rest\\tareaCorta1-Rest.csproj",
-      "packagesPath": "C:\\Users\\Extremetech\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Extremetech\\source\\repos\\tareaCorta1-Rest\\obj\\",
+      "projectPath": "C:\\Users\\jrodr\\Desktop\\TEC\\Bases\\proyecto1\\CE3101-tareacorta\\tarea corta\\ServidorRest\\tareaCorta1-Rest\\tareaCorta1-Rest.csproj",
+      "packagesPath": "C:\\Users\\jrodr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jrodr\\Desktop\\TEC\\Bases\\proyecto1\\CE3101-tareacorta\\tarea corta\\ServidorRest\\tareaCorta1-Rest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Extremetech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jrodr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

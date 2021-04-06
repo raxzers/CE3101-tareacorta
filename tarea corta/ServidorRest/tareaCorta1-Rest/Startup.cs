@@ -31,7 +31,7 @@ namespace tareaCorta1_Rest
                                   builder =>
                                   {
                                       builder.WithOrigins("http://localhost:4200",
-                                                          "")
+                                                          "http://192.168.0.5","")
                                         .AllowAnyHeader()
                                                   .AllowAnyMethod();
                                   });

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using webapi_csharp.Modelos;
 using webapi_csharp.Repositorios;
 
